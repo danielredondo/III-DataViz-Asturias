@@ -30,8 +30,10 @@ ui <- fluidPage(
           are represented as points, with one point for every second."),
   br(),
   tags$b("The code of this app is available in ", tags$a("this link",
-                                         href = "https://gist.github.com/danielredondo/06133eb945c43771d79b2fa4a664cb0e"),
-         "and the code that generated the images is available in ", tags$a("this link", href = "http://www.danielredondo.com")
+            href = "https://github.com/danielredondo/III-DataViz-Asturias/blob/main/app.R"),
+         "and the code that generated the images is available in ",
+         tags$a("this link",
+            href = "https://github.com/danielredondo/III-DataViz-Asturias/blob/main/www/circuitos.R")
          ),
   hr(),
   tags$h4("Select the driver"),
