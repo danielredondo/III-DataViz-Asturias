@@ -1,0 +1,14 @@
+# Quitar carpetas
+/rsconnect/*
+/rsconnect
+
+# R
+# History files
+*.Rhistory
+*.Rapp.history
+# Session Data files
+*.RData
+# RStudio files
+*.Rproj.user/
+# System files
+*.DS_Store
